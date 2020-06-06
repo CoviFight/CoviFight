@@ -5,7 +5,7 @@ The virus has affected humanity in various ways, be it our economy, our freedom 
 Even after the lockdown is over, there is a massive possibility that traces of the virus will remain, and it can spread again.
 We wanted to bring people back their mobility and keep them safe at the same time. We wanted people to know about their status while they leave their houses
 
-<img src="https://user-images.githubusercontent.com/64380870/83939385-273a0d80-a7fa-11ea-9f5f-b3397e8fa93b.png" width="30%"></img> 
+<img src="https://user-images.githubusercontent.com/64380870/83939385-273a0d80-a7fa-11ea-9f5f-b3397e8fa93b.png" width="45%"></img> 
 
 ## Solution Brief Overview: 
 CoviFight is not just a contact tracing application. It is a 3-tier solution which:- 
@@ -22,14 +22,16 @@ CoviFight does not even need to compare data between people, thus making computa
 • An official's portal. 
 
 ## Provider's app: 
-<img src="https://user-images.githubusercontent.com/64380870/83939353-db876400-a7f9-11ea-9fd9-96bed03e114a.png" width="18%"></img> 
+<img src="https://user-images.githubusercontent.com/64380870/83939519-5309c300-a7fb-11ea-9e69-be2b7bbf8476.png" width="30%"></img> 
+
 A provider's app for aggregation points like shops, restaurants and public transport synchronizes with the nearby user app. This interface is the key to the detection of infection points, be it a stationary workplace or a moving vehicle. If a restaurant installed CoviFight and had an infected customer in the past 15 days, all the customers after the positive tested patient would get alerted, and hence the restaurant can be sterilized. 
 
 ## Official's Portal/ Doc App: 
 Only the medical system may update a person's status over the official's portal, and the authenticity of the app is maintained, hence preventing false positives or self-reporting, which might lead to falsification of records. No one else can manipulate the data. Hence, people can move around while being alerted about their status. They can stay away from the virus, and be free from the worry of their privacy maintenance at the same time. 
   
 ## User's app
-<img src="https://user-images.githubusercontent.com/64380870/83939416-84ce5a00-a7fa-11ea-9d4f-888e6bdd19e7.png" width="18%"></img> 
+<img src="https://user-images.githubusercontent.com/64380870/83939416-84ce5a00-a7fa-11ea-9d4f-888e6bdd19e7.png" width="30%"></img>
+
 For the general public. 
 1) Uses Social Network Analysis to predict your chances of catching the virus, so that you can take preventive measures.
 2) Leverages only Bluetooth to keep a track of people in contact.
