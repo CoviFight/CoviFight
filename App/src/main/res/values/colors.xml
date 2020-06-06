@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0D0055FF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="darkblue">#0000CC </color>
+    <color name="red">#CC0000 </color>
+    <color name="greyblue">#33CCFF </color>
+    <color name="white">#FFFFFF</color>
+    <color name="linkblue">#0288D1</color>
+    <color name="startpagebackground">#0D0055FF</color>
+    <color name="compcoolor">#15135B</color>
+    <color name="grey">#0D0055FF</color>
+    <color name="prob0">#3dfa12</color>
+    <color name="prob5">#ffc316</color>
+    <color name="prob15">#FF9717</color>
+    <color name="prob40">#FF3A17</color>
+    <color name="prob75">#F80000</color>
+    <color name="pinView">#15135B</color>
+    <color name="colorBG">#EEF3FF</color>
+</resources>

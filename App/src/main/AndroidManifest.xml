@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alphamax.covifight">
+
+    <!--Internet Permission-->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--Bluetooth Permission-->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!--Location Permission-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+
+    <!--SMS Permission-->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <!--Storage Permission-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--Foreground Service-->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <!--WakeLock Permission-->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!--Activity Detection Permission-->
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/shield"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/shield"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBzExeotiaYuL41UbB04Zvx3nzQiyxjtrs"/>
+
+        <activity
+            android:name=".UI.activity.NavigationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.activity.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.activity.VerificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.activity.LanguageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.activity.StartActivity"
+            android:parentActivityName=".UI.activity.StartActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".service.OreoService" />
+        <service
+            android:name=".service.OreoActivityDetectionService" />
+    </application>
+</manifest>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    tools:context=".UI.fragment.ProfileFragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/profilepic"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/user"
+                    android:layout_marginStart="32dp"
+                    android:contentDescription="@string/imageDescription"
+                    />
+
+                <TextView
+                    android:id="@+id/nameProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profileName"
+                    android:textColor="#15135B"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_toEndOf="@id/profilepic"
+                    android:layout_toStartOf="@+id/languageProfile"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profileHomeTown"
+                    android:textSize="18dp"
+                    android:textColor="#15135B"
+                    android:layout_toEndOf="@id/profilepic"
+                    android:layout_toStartOf="@+id/languageProfile"
+                    android:layout_below="@id/nameProfile"
+                    android:id="@+id/placeProfile"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="2dp"/>
+
+                <ImageButton
+                    android:id="@+id/languageProfile"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:tint="#15135B"
+                    android:background="@color/colorBG"
+                    android:backgroundTint="@color/colorBG"
+                    android:contentDescription="@string/imageDescription"
+                    android:src="@mipmap/ic_language"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="@string/dobProfile"
+                    android:textColor="#15135B"
+                    android:textStyle="bold"
+                    android:layout_marginStart="32dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profileDOBHint"
+                    android:id="@+id/dobProfile"
+                    android:textSize="18dp"
+                    android:textColor="#15135B"
+                    android:layout_marginStart="8dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="@string/emailProfile"
+                    android:textColor="#15135B"
+                    android:textStyle="bold"
+                    android:layout_marginStart="32dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emailHintProfile"
+                    android:id="@+id/emailProfile"
+                    android:textSize="18dp"
+                    android:textColor="#15135B"
+                    android:layout_marginStart="8dp"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/barcodeProfile"
+                android:layout_width="196dp"
+                android:layout_height="196dp"
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/imageDescription"
+                android:background="@color/black"/>
+
+            <Button
+                android:id="@+id/keyProfile"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="72dp"
+                android:background="@drawable/bg_button"
+                android:text="@string/keyProfile"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center"
+                />
+
+            <Button
+                android:id="@+id/logoutProfile"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="72dp"
+                android:background="@drawable/bg_button"
+                android:text="@string/logoutProfile"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="64dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+    </ScrollView>

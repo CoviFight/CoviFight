@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UI.activity.LanguageActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/languageText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="64dp"
+            android:text="@string/lang_txtlanguage"
+            android:textColor="#15135B"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/languageText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/lang_pls_slt_lng"
+            android:textColor="#9915135B"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageText1" />
+
+
+        <TextView
+            android:id="@+id/languageEnglish"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="72dp"
+            android:text="@string/lang_english"
+            android:textColor="#15135B"
+            android:textSize="28dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageText2"
+            />
+
+        <TextView
+            android:id="@+id/languageDutch"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="72dp"
+            android:text="@string/lang_dutch"
+            android:textAlignment="center"
+            android:textColor="#15135B"
+            android:textSize="28dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageEnglish" />
+
+        <TextView
+            android:id="@+id/languageFrench"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="72dp"
+            android:text="@string/lang_french"
+            android:textAlignment="center"
+            android:textColor="#15135B"
+            android:textSize="28dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageDutch" />
+
+        <TextView
+            android:id="@+id/languageGerman"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="72dp"
+            android:text="@string/lang_german"
+            android:textAlignment="center"
+            android:textColor="#15135B"
+            android:textSize="28dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageFrench" />
+
+        <TextView
+            android:id="@+id/languageSpanish"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="72dp"
+            android:text="@string/lang_spanish"
+            android:textAlignment="center"
+            android:textColor="#15135B"
+            android:textSize="28dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageGerman" />
+
+        <Button
+            android:id="@+id/languageButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/bg_button"
+            android:text="@string/lang_proceed_btn_txt"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageSpanish"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

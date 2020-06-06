@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profileTitle"
+            android:textStyle="bold"
+            android:textColor="#15135B"
+            android:textSize="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="64dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profileSubtitle"
+            android:textSize="18dp"
+            android:textColor="#9915135B"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@mipmap/user"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/imageDescription"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profileName"
+            android:textSize="18dp"
+            android:textColor="#15135B"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"/>
+
+        <EditText
+            android:id="@+id/profileName"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="text"
+            android:hint="@string/profileNameHint"
+            android:textSize="22dp"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:textColor="#8015135B"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profileEmail"
+            android:textSize="18dp"
+            android:textColor="#15135B"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"/>
+
+        <EditText
+            android:id="@+id/profileEmail"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/profileEmailHint"
+            android:textSize="22dp"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:textColor="#8015135B"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profileDOB"
+            android:textSize="18dp"
+            android:textColor="#15135B"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"/>
+
+        <EditText
+            android:id="@+id/profileDOB"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="date"
+            android:hint="@string/profileDOBHint"
+            android:textSize="22dp"
+            android:focusableInTouchMode="false"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:textColor="#8015135B" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profileHomeTown"
+            android:textSize="18dp"
+            android:textColor="#15135B"
+            android:textStyle="bold"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"/>
+
+        <EditText
+            android:id="@+id/profileHomeTown"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="text"
+            android:hint="@string/profileHomeTownHint"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:textColor="#8015135B"
+            android:textSize="22dp"
+            android:textAlignment="viewStart"
+            />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/bg_button"
+            android:text="@string/profileSaveButton"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/startpagebackground">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@color/startpagebackground">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/startLogoFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:background="@mipmap/shield"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/startLogoImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#0000"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/virus"
+                android:contentDescription="@string/imageDescription"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/startCompName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/startLogoFrame"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/start_comp_name"
+            android:textAlignment="center"
+            android:textColor="@color/compcoolor"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startLogoFrame" />
+
+        <TextView
+            android:id="@+id/startTagLine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/startCompName"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/start_comp_tagline"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startCompName" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/startTagLine"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/bg_button"
+            android:text="@string/start_btn_txt"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startTagLine"
+            app:layout_constraintVertical_bias="0.289" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+    <LinearLayout
+        android:id="@+id/startDisplayImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.5"
+        android:foreground="@color/startpagebackground"
+        android:background="@mipmap/people"
+        android:layout_gravity="bottom" />
+
+</LinearLayout>
+
