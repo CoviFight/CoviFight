@@ -1,0 +1,120 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.main_container{
+	font-family: europa, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	width: 100vw;
+	min-height: 100vh;
+}
+.header{
+	height: 70px;
+	padding: 15px 140px;
+	font-size: 45px;
+	line-height: 58px;
+	font-weight: bold;
+}
+.header a{
+	position: relative;
+	top: -20px;
+	color: #15135B;
+	text-decoration: none;
+}
+.header img{
+	height: 100%;
+}
+form{
+	font-family: europa, sans-serif;
+	letter-spacing: 0;
+	font-style: normal;
+	font-weight: bold;
+	color: #15135B;
+	margin:15vh 0 0 25vw;
+	font-size: 25px;
+}
+form h2{
+	font-size: 28px;
+	margin-bottom: 12vh;
+}
+input[type=text]{
+	display: block;
+	margin-bottom: 10vh;	
+	border: none;
+	background-color: #F5F5F5;
+	border-radius: 20px;
+	height: 40px;
+	width: 400px;
+	text-align: center;
+}
+input[type=password]{
+	display: block;
+	margin-bottom: 10vh;	
+	border: none;
+	background-color: #F5F5F5;
+	border-radius: 20px;
+	height: 40px;
+	width: 400px;
+	text-align: center;
+}
+input[type=text]::placeholder {
+  color: #15135B;
+  opacity: 50%;
+  font-size: 20px;
+  line-height: 20px;
+}
+input[type=password]::placeholder {
+	color: #15135B;
+	opacity: 50%;
+	font-size: 20px;
+	line-height: 20px;
+  }
+input[type=submit]{
+	border: none;
+	background-color: #4B7FFB;
+	border-radius: 20px;
+	height: 40px;
+	width: 260px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+
+input {
+	outline:none;
+   }
+input:focus::placeholder {
+	color: transparent;
+  }

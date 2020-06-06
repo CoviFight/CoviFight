@@ -1,0 +1,57 @@
+.background-img {
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    height:130vh ;
+    position: absolute;
+    top:-30vh;
+    right: 0px;
+    width:50vw;
+  }
+  
+   .container {
+      border: none;
+      top:50px;
+      position: absolute;
+      margin-left: 80px;
+  }
+  .discription {
+      position: absolute;
+      top:50vh;
+  }
+  .button {
+    background-color:#4c7ffc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    top:80vh;
+    left:90px;
+    position: absolute;
+    border-radius: 20px;
+    width: 150px;
+    outline:none;
+  }
+  #heading-main{
+      color: #15135e;
+      float:right;
+      margin-left:20px;
+      font-size: 80px;
+      margin-top: 0px;
+  }
+  #heading-disc{
+      color:#84a6fe;
+      font-size:45px;
+  }
+  .discription{
+      width:25vw;
+      margin-left: 90px;
+      position: absolute;
+      top:160px;
+  }
+  

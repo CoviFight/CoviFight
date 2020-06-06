@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+<head>
+<title>Covid-19 Doctor App</title>   
+<link rel="stylesheet" type="text/css" href="../static/css/home.css"> 
+</head>
+<body style="overflow-y: hidden; background-color: #edf3ff;">
+    <div class="container">
+       <img class="icon1" src="../static/images/Group 29.png"> </img>
+       <h1  id="heading-main">DocApp</h1>
+    </div>
+    <div class="discription">
+        <h3  id="heading-disc">Enabling doctors and medicos to keep a track of their patients</h3>
+    </div>
+    <a href="{% url 'login' %}"><button class="button">Login</button></a>
+    <img src="../static/images/Mask Group 8.png" class="background-img"></img>
+</body>
+</html>
